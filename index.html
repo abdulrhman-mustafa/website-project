@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <title>Inspiro</title>
+    <link rel="shortcut icon" href="./imgs/logo.png" type="image/x-icon">
+    <!-- cdn file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Start Header -->
+    <header id="sticky" class="bg-primary max-md:px-2.5 max-lg:px-2.5 xl:px-20">
+            
+        <div class="container flex items-center justify-between mx-auto max-lg:py-5">
+
+            <a class="logo" href="index.html">
+                <h1 class="text-secondary h-font font-bold text-4xl"><i class="fa fa-book me-3"></i>Inspiro</h1>
+            </a>
+
+
+                <div class="humburger block lg:hidden relative ">
+                    <i class="fa-solid fa-bars toggle active"></i>
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+            
+    
+    
+    
+                <nav class="navbar">
+                    <ul class="navbar-nav lg:flex lg:justify-center lg:items-center">
+                        
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link transition duration-300 active">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="about.html" class="nav-link transition duration-300 hover:text-secondary">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="activties.html" class="nav-link transition duration-300">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="activties.html" class="nav-link transition duration-300">Products</a>
+                        </li>
+                        <li class="nav-item dropdown" id="list-item">
+        
+        
+                            <a href="#" class="nav-link transition duration-300 dropdown-toggle">Pages
+                                <div class="toggle lg:hidden">
+                                    <span id="plus" class="active">+</span>
+                                    <span id="mines">-</span>
+                                </div>
+                            </a>
+                            <ul class="dropdown-menu max-lg:hidden lg:absolute lg:top-full lg:left-[-55px] lg:w-48 lg:p-3.5 lg:invisible lg:opacity-0">
+                                <li class="transition duration-300 my-2.5 mx-0">
+                                    <a href="blog.html" class="max-lg:mx-5 dropdown-item">Shop</a>
+                                </li>
+                                <li class="transition duration-300  my-2 mx-0">
+                                    <a href="team.html" class="max-lg:mx-5 dropdown-item">Testimonial</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="activties.html" class="nav-link transition duration-300">Courses</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="icons justify-between items-center text-xl space-x-5 hidden lg:block">
+                    <a href="#" role="button">
+                        <i class="fa-regular fa-user"></i>
+                    </a>
+                    <a href="#" role="button">
+                        <i class="fa-regular fa-heart"></i>
+                    </a>
+                    <a href="#" role="button">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                    </a>
+                </div>
+        </div>
+        
+            
+    </header>
+    <!-- End Header -->
+    
+    <!-- Start Home -->
+    <div class="home bg-cover h-[90vh] relative z-1 max-md:bg-center ">
+        <div class="overlay -z-10 absolute top-0 left-0 w-full h-full"></div>
+        <div class="container mx-auto max-md:px-8 lg:px-28 lg:py-50 max-lg:py-36 z-1">
+            <div class="content space-y-7">
+                <span class="text-secondary uppercase fw-semibold lg:text-xl">Best Online Courses</span>
+                <h1 class="lg:text-5xl max-md:text-2xl lg:w-[650px] mt-4 text-white">The Best Online Learning Platform</h1>
+                <p class="text-white lg:w-[700px] max-md:w-auto lg:fs-2 max-md:fs-1">
+                    Our online learning platform offers a comprehensive educational experience, providing a wide range of high-quality courses in various fields.
+                </p>
+                <div class="btns flex items-center mt-10 z-10">
+                    <a class="btn me-5 text-white border  block py-4 px-5 w-44 text-center border-solid" href="#" role="button">Read More</a>
+                    <a class="btn-one bg-white block py-4 px-5 w-44 text-center " href="#" role="button">Join Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Home -->
+
+    <script src="../dist/js/main.js"></script>
+</body>
+</html>
