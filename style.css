@@ -2801,7 +2801,7 @@ input.input {
   color: var(--secondary);
 }
 .home {
-  background-image: url('../dist/imgs/carousel-2.jpg');
+  background-image: url('imgs/carousel-2.jpg');
 }
 .home .overlay {
   background-color: rgba(24, 29, 56, .7);
